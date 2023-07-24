@@ -1,0 +1,207 @@
+header .container img{width:60px;}
+
+html {
+
+	-ms-text-size-adjust: 100%;
+
+	-webkit-text-size-adjust: 100%;
+
+}
+
+*, *:before, *:after {
+
+	-webkit-box-sizing: border-box;
+
+	-moz-box-sizing: border-box;
+
+	box-sizing: border-box;
+
+}
+
+input, textarea {
+
+	-webkit-appearance: none;
+
+	-webkit-border-radius: 0;
+
+}
+
+button, html input[type="button"],/* 1 */ input[type="reset"], input[type="submit"] {
+
+	-webkit-appearance: button;
+
+	cursor: pointer;
+
+ *overflow:visible;
+
+}
+
+body, img,.commentys-form input[type="text"],.commentys-form input[type="email"],.commentys-form input[type="url"],.commentys-form textarea {
+
+	transition: all .2s linear;
+
+	-o-transition: all .2s linear;
+
+	-moz-transition: all .2s linear;
+
+	-webkit-transition: all .2s linear;
+
+}
+
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video, input, main {
+
+	-webkit-box-sizing: border-box;
+
+	-moz-box-sizing: border-box;
+
+	box-sizing: border-box;
+
+	margin: 0;
+
+	padding: 0;
+
+	vertical-align: baseline;
+
+	border: 0;
+
+	outline: 0;
+
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, img, main {
+
+	display: block
+
+}
+
+audio, canvas, video {
+
+	display: inline-block;
+
+ *display:inline;
+
+ *zoom:1
+
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+
+	content: '';
+
+	content: none;
+
+}
+
+.clear {
+
+	clear: both;
+
+	line-height: 0;
+
+	height: 0;
+
+}
+
+a {
+
+	text-decoration: none;
+
+	outline: none;
+
+	color: #010101;
+
+	transition-delay: 0s;
+
+	transition-duration: 0.6s;
+
+	transition-property: all;
+
+	transition-timing-function: ease;
+
+}
+
+p{font-weight: lighter;}
+
+a:focus, img:focus, button:focus, .btn:focus {outline: none;}
+
+::-moz-selection {background-color:#fb5353;color:#fff;text-shadow:none;}
+
+::selection {background-color: #fb5353;color: #fff;text-shadow: none;}
+
+@font-face {font-family: font-family: "Source Sans Pro", Helvetica, Arial, sans-serif, Helvetica, Arial, sans-serif;}
+
+/*===== Header ===*/
+
+header[role="header"]{ padding-top:80px; padding-bottom:39px}
+
+header[role="header"] h1{ padding:0; margin:0}
+
+header[role="header"] h1 > a{ max-width:66px; display:block; float:left}
+
+header[role="header"] nav{ padding-top:10px;transition-delay: 0s;
+
+transition-duration: 0.6s;transition-property: all;transition-timing-function: ease;}
+
+/*===== main ===*/
+
+main[role="main-home-wrapper"],main[role="main-inner-wrapper"] { padding-bottom:90px}
+
+main[role="main-home-wrapper"] article[role="pge-title-content"],main[role="main-inner-wrapper"] article[role="pge-title-content"]{ padding-left:0;}
+
+main[role="main-home-wrapper"] article[role="pge-title-content"] header,main[role="main-inner-wrapper"] article[role="pge-title-content"] header{ padding-bottom:19px; padding-top:83px}
+
+main[role="main-home-wrapper"] article[role="pge-title-content"] header h2{ font-size:35px; line-height:53px; color:#404040; font-weight:lighter;}
+
+main[role="main-home-wrapper"] article[role="pge-title-content"] header h2 span{ display:block; font-size:80px; color:#fb5353; padding-bottom:15px; font-weight: 900;}
+
+main[role="main-home-wrapper"] article[role="pge-title-content"] p{ font-size:20px; line-height:30px; color:#454545; font-weight: lighter;}
+
+/*===== footer ===*/
+
+footer[role="footer"]{ background-color:#FFF; padding-top:100px; padding-bottom:77px}
+
+footer[role="footer"] > div img{ margin:0 auto; display:block; height: 100px;}
+
+footer[role="footer"] nav{ padding-top:37px; padding-bottom:43px}
+
+footer[role="footer"] nav > ul{ text-align:center; padding:0; margin:0}
+
+footer[role="footer"] nav > ul > li{ display: inline-block; text-transform:uppercase; font-size:15px; margin:0 13px}
+
+footer[role="footer"] nav > ul > li > a{ color:#9d9d9d}
+
+footer[role="footer"] nav > ul > li:hover a{ text-decoration:none; color:#fb5353}
+
+footer[role="footer"] ul[role="social-icons"]{ padding:30px 0; margin:0; text-align:center;}
+
+footer[role="footer"] ul[role="social-icons"] > li{ display: inline-block; margin:0 6.5px}
+
+footer[role="footer"] ul[role="social-icons"] > li > a{ display:block; width:42px; height:42px; background-color:#bbbbbb; color:#FFF; line-height:42px; font-size:20px; border-radius:100%; text-align:center}
+
+footer[role="footer"] ul[role="social-icons"] > li:hover a{ background-color:#fb5353}
+
+footer[role="footer"] .copy-right{ text-align:center; display:block; font-size:12px; line-height:13px; color:#9c9c9c}
+
+/*===== About ===*/
+
+main[role="main-inner-wrapper"] .about-content{ background-color:#fb5353; padding-top:57px; padding-left:70px; padding-right:67px; padding-bottom:58px}
+
+main[role="main-inner-wrapper"] .about-content p{ font-size:17px; line-height:30px; color:#FFF; padding-bottom:20px}
+
+main[role="main-inner-wrapper"] .thumbnails-pan{ padding-top:30px}
+
+main[role="main-inner-wrapper"] .thumbnails-pan section figure{ background-color:#000; position:relative; overflow:hidden; cursor:pointer}
+
+main[role="main-inner-wrapper"] .thumbnails-pan section figure,main[role="main-inner-wrapper"] .thumbnails-pan section figure, img,main[role="main-inner-wrapper"] .thumbnails-pan section figure figcaption,section.blog-content figure,section.blog-content figure img,section.blog-content  article{transition-delay: 0s;transition-duration: 0.6s;transition-property: all;transition-timing-function: ease;}
+
+main[role="main-inner-wrapper"] .thumbnails-pan section figure figcaption{ position:absolute; top: 50%;-moz-transform: translateY(-50%);-ms-transform: translateY(-50%);-webkit-transform: translateY(-50%);left:0; right:0; background-color:#fb5353; margin:0 69px; text-align:center; color:#FFF; padding-top:16px; padding-bottom:27px}
+
+main[role="main-inner-wrapper"] .thumbnails-pan section figure figcaption h3{ font-size:21px; line-height:22px; font-weight:300}
+
+main[role="main-inner-wrapper"] .thumbnails-pan section figure figcaption h5{ text-transform:uppercase; font-size:13px; line-height:14px; font-weight:bold}
+
+main[role="main-inner-wrapper"] .thumbnails-pan section figure:hover,section.blog-content:hover article{ background-color:#fb5353; color:#FFF}
+
+main[role="main-inner-wrapper"] .thumbnails-pan section figure:hover img,section.blog-content:hover figure img{-webkit-transform: scale3d(1.08,1.08,2);transform: scale3d(1.08,1.08,2); opacity:0.5}
+
+main[role="main-inner-wrapper"] .thumbnails-pan section figure:hover figcaption{bottom:0;}
